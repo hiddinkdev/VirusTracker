@@ -9,7 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var newConfirmedLabel: UILabel!
+    @IBOutlet weak var totalConfirmedLabel: UILabel!
+    
+    @IBOutlet weak var newDeathsLabel: UILabel!
+    @IBOutlet weak var totalDeathsLabel: UILabel!
+    @IBOutlet weak var newRecoveredLabel: UILabel!
+    @IBOutlet weak var totalRecoveredLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
