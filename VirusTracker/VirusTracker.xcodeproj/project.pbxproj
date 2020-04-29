@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1111C3BF24590DE90088CC0F /* FlagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111C3BE24590DE90088CC0F /* FlagCell.swift */; };
+		1111C3C124591C9D0088CC0F /* SummaryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111C3C024591C9D0088CC0F /* SummaryResponse.swift */; };
+		1111C3C324591D830088CC0F /* VirusClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111C3C224591D830088CC0F /* VirusClient.swift */; };
+		1111C3C5245923540088CC0F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111C3C4245923540088CC0F /* Utils.swift */; };
 		1188DB912459099B0030BB59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188DB902459099B0030BB59 /* AppDelegate.swift */; };
 		1188DB932459099B0030BB59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188DB922459099B0030BB59 /* SceneDelegate.swift */; };
 		1188DB952459099B0030BB59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188DB942459099B0030BB59 /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		1111C3BE24590DE90088CC0F /* FlagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagCell.swift; sourceTree = "<group>"; };
+		1111C3C024591C9D0088CC0F /* SummaryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryResponse.swift; sourceTree = "<group>"; };
+		1111C3C224591D830088CC0F /* VirusClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusClient.swift; sourceTree = "<group>"; };
+		1111C3C4245923540088CC0F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		1188DB8D2459099B0030BB59 /* VirusTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirusTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1188DB902459099B0030BB59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1188DB922459099B0030BB59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				1111C3BE24590DE90088CC0F /* FlagCell.swift */,
+				1111C3C024591C9D0088CC0F /* SummaryResponse.swift */,
+				1111C3C224591D830088CC0F /* VirusClient.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -90,6 +98,7 @@
 				1188DB9B2459099C0030BB59 /* LaunchScreen.storyboard */,
 				1188DB992459099C0030BB59 /* Assets.xcassets */,
 				1188DB9E2459099C0030BB59 /* Info.plist */,
+				1111C3C4245923540088CC0F /* Utils.swift */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -166,8 +175,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1188DB952459099B0030BB59 /* ViewController.swift in Sources */,
+				1111C3C124591C9D0088CC0F /* SummaryResponse.swift in Sources */,
 				1188DB912459099B0030BB59 /* AppDelegate.swift in Sources */,
+				1111C3C5245923540088CC0F /* Utils.swift in Sources */,
 				1188DB932459099B0030BB59 /* SceneDelegate.swift in Sources */,
+				1111C3C324591D830088CC0F /* VirusClient.swift in Sources */,
 				1111C3BF24590DE90088CC0F /* FlagCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

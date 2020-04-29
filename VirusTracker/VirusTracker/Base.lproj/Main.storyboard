@@ -264,6 +264,7 @@
                         <outlet property="newConfirmedLabel" destination="y2U-on-r7Q" id="Yyc-9U-Cmz"/>
                         <outlet property="newDeathsLabel" destination="1Ca-VK-ykS" id="LJT-en-iUS"/>
                         <outlet property="newRecoveredLabel" destination="jP8-Li-pdB" id="tBA-Sd-4Oz"/>
+                        <outlet property="tableView" destination="k6I-fe-xm8" id="vkl-ro-0j0"/>
                         <outlet property="totalConfirmedLabel" destination="NUt-ea-dm1" id="XbY-WI-lXY"/>
                         <outlet property="totalDeathsLabel" destination="Thi-wG-nNS" id="hIq-4L-pjX"/>
                         <outlet property="totalRecoveredLabel" destination="Yf7-uw-DWC" id="tcG-Hc-xK9"/>
