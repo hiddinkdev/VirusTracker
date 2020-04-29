@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  VirusViewController.swift
 //  VirusTracker
 //
 //  Created by Neil Hiddink on 4/28/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class VirusViewController: UIViewController {
     
     @IBOutlet weak var newConfirmedLabel: UILabel!
     @IBOutlet weak var totalConfirmedLabel: UILabel!
@@ -42,14 +42,30 @@ class ViewController: UIViewController {
         }
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        if let selectedIndex = tableView.indexPathForSelectedRow {
+            tableView.deselectRow(at: selectedIndex, animated: true)
+        }
+    }
+    
 }
 
-extension ViewController: UITableViewDelegate, UITableViewDataSource {
+extension VirusViewController: UITableViewDelegate, UITableViewDataSource {
     
     // MARK: - Delegate
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 78.0
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let summary = summary else { return }
+        if let detailVC = storyboard?.instantiateViewController(identifier: "DetailVC") as? VirusDetailViewController {
+            detailVC.selectedCountry = summary.Countries[indexPath.row]
+            present(detailVC, animated: true)
+        }
     }
     
     // MARK: - Data Source
