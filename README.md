@@ -7,13 +7,13 @@
 - Swift 5.0+
 - [COVID-19 API Documentation on Postman](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#00030720-fae3-4c72-8aea-ad01ba17adf8)
 
-### 📱 What You'll Build...
+### 📱 App Overview
 
 The data in this app is populated from the [covid19api](https://covid19api.com) created and maintained by Kyle Redelinghuys ([@ksredelinghuys](https://twitter.com/ksredelinghuys)).
 
 <p align="center"><img src="https://media.giphy.com/media/YTECKzWgl0LAIH1tvy/giphy.gif" width="500"></p>
 
-### 🔮 Ideas for Further Development...
+### 🔮 Ideas for Further Development
 
 1️⃣ Add support for additional endpoints from Postman’s COVID-19 API. Can you think of other interesting ways to present data to the user?
 
