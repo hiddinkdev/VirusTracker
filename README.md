@@ -10,3 +10,15 @@
 ### 📱 What You'll Build...
 
 <p align="center"><img src="https://media.giphy.com/media/YTECKzWgl0LAIH1tvy/giphy.gif" width="500"></p>
+
+### 🔮 Ideas for Further Development...
+
+1️⃣ Add support for additional endpoints from Postman’s COVID-19 API. Can you think of other interesting ways to present data to the user?
+
+2️⃣ Incorporate visualizations or graphs into the app using CocoaPods and an open source project like [Charts by Daniel Cohen Gindi](https://github.com/danielgindi/Charts).
+
+3️⃣ Implement sorting or filtering the table data based on the user’s chosen criteria.
+
+4️⃣ Utilize additional UITableView Delegate and Data Source methods to give users the ability to favorite, delete, or reorder the list.
+
+5️⃣ Incorporate elements from other Apple frameworks, such as MapKit or WatchKit.
