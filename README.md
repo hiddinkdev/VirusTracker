@@ -5,9 +5,11 @@
 - iOS 13.0+
 - Xcode 11.4.1+
 - Swift 5.0+
-- Postman's [COVID-19 API](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#00030720-fae3-4c72-8aea-ad01ba17adf8)
+- [COVID-19 API Documentation on Postman](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#00030720-fae3-4c72-8aea-ad01ba17adf8)
 
 ### 📱 What You'll Build...
+
+The data in this app is populated from the [covid19api](https://covid19api.com) created and maintained by Kyle Redelinghuys ([@ksredelinghuys](https://twitter.com/ksredelinghuys)).
 
 <p align="center"><img src="https://media.giphy.com/media/YTECKzWgl0LAIH1tvy/giphy.gif" width="500"></p>
 
