@@ -84,7 +84,7 @@
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="80" id="FW1-ig-ZDG"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -272,7 +272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1042.0289855072465" y="128.57142857142856"/>
+            <point key="canvasLocation" x="997" y="129"/>
         </scene>
         <!--Virus Detail View Controller-->
         <scene sceneID="Ghz-OA-sfx">
@@ -329,7 +329,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="Tx8-2w-sNS"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
